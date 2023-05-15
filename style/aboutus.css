@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header1 {
+    background-color: #A7A16D;
+    display: flex;
+    padding: 20px;
+    gap: 300px;
+    align-items: center;
+    height: 80px;
+    background-image: url("/assets/wtd-logo-dark.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-left: 200px;
+}
+
+header h1 {
+    margin-left: 200px;
+}
+
+.header1 ul {
+    display: flex;
+    gap: 30px;
+}
+
+.header1 ul li{
+    list-style: none;
+}
+
+.header1 ul li a{
+    text-decoration: none;
+}
+
+.header1 h1 {
+    font-family: 'Mulish', sans-serif;
+}
+
+img {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.myimg {
+    border-radius: 10px;
+    padding: 5px;
+    width: 205px;
+}
+
+.info {
+    
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    padding-top: 10px;
+    align-items: center;
+    
+}
+
+main fieldset {
+    margin: 10px;
+}
+
+footer {
+    height: 20px;
+    background-color: #A7A16D;
+}
+
+footer p {
+    text-align: center;
+}
+
+textarea[type=text] {
+    width: 50%;
+    padding: 17px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  .text input[type=text]{
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+  input[type=email] {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 10%;
+    background-color: #A7A16D;
+    color: black;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ada76f;
+  }
+  
+  fieldset {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .text1 {
+    width: 20%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
