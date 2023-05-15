@@ -7,14 +7,15 @@
 .header1 {
     background-color: #A7A16D;
     display: flex;
-    padding: 20px;
-    gap: 300px;
+    gap: 90px;
     align-items: center;
     height: 80px;
-    background-image: url("/assets/wtd-logo-dark.png");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    padding-left: 200px;
+    padding-left: 20px;
+}
+
+.header1 .logo {
+    height: 40px;
+    width: 300px;
 }
 
 header h1 {
@@ -36,12 +37,6 @@ header h1 {
 
 .header1 h1 {
     font-family: 'Mulish', sans-serif;
-}
-
-img {
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
 }
 
 .myimg {
