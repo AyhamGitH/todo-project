@@ -41,32 +41,6 @@ if (age<=0) {
 }
 ageInput(gender,age);
 
-let answer1 = confirm("do you like sports");
-let answer2 = confirm("are you interested in music");
-let answer3 = confirm("did you complete the assignment");
-function questions(answer1, answer2, answer3) {
-if (answer1) {
-    arr[3] = 'yes';
-}else{
-    arr[3] = 'no';
-}
-
-
-if (answer2) {
-    arr[4] = 'yes';
-}else{
-    arr[4] = 'no';
-}
-
-
-if (answer3) {
-    arr[5] = 'yes';
-}else{
-    arr[5] = 'no';
-}
-}
-questions(answer1, answer2, answer3);
-
 let welcome = confirm("do you want to skip the welcoming message");
 function wecomeMessage(welcome,name1,gender) {
 if (welcome) {
@@ -74,10 +48,10 @@ if (welcome) {
 } else if(name1){
     switch(gender){
         case 'male':
-            alert(`Hello Mr ${name1}`)
+            alert(`welcome Mr ${name1}`)
             break;
         case 'female':
-            alert(`Hello Ms ${name1}`)
+            alert(`welcome Ms ${name1}`)
             break;
         default:
             alert(`welcome ${name1}`)
@@ -88,7 +62,40 @@ if (welcome) {
 }
 wecomeMessage(welcome,name1,gender);
 
+if (welcome) {
+let answer1 = prompt('do you like sports? please answer with a yes or no');
+let answer2 = prompt('are you interested in music? please answer with a yes or no');
+let answer3 = prompt('did you complete the assignment? please answer with a yes or no');
 
+function questions(answer1, answer2, answer3) {
+if (answer1 === 'yes') {
+    arr[3] = 'yes';
+}else if(answer1 === 'no'){
+    arr[3] = 'no';
+}else {
+    arr[3] = 'invalid';
+}
+
+
+if (answer2 === 'yes') {
+    arr[4] = 'yes';
+}else if(answer2 === 'no'){
+    arr[4] = 'no';
+}else {
+    arr[4] = 'invalid';
+}
+
+
+if (answer3 === 'yes') {
+    arr[5] = 'yes';
+}else if(answer3 === 'no'){
+    arr[5] = 'no';
+}else {
+    arr[5] = 'invalid';
+}
+}
+questions(answer1, answer2, answer3);
+}
 
 for(let i=0; i< arr.length; i++){
     switch(i){
