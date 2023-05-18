@@ -62,7 +62,7 @@ if (welcome) {
 }
 wecomeMessage(welcome,name1,gender);
 
-if (welcome) {
+
 let answer1 = prompt('do you like sports? please answer with a yes or no');
 let answer2 = prompt('are you interested in music? please answer with a yes or no');
 let answer3 = prompt('did you complete the assignment? please answer with a yes or no');
@@ -95,7 +95,7 @@ if (answer3 === 'yes') {
 }
 }
 questions(answer1, answer2, answer3);
-}
+
 
 for(let i=0; i< arr.length; i++){
     switch(i){
